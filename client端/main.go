@@ -72,8 +72,8 @@ type ResponseAddress struct {
 }
 
 func main() {
-	// appName := RandName()
-	appName := "aaahhh"
+	appName := RandName()
+	// appName := "aaahhh"
 
 	if !StartupExists(appName) {
 		_ = SetStartup(appName)
